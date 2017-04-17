@@ -1,0 +1,54 @@
+body{
+margin: 0;
+font-size: 14px;
+font-family: sans-serif;
+}
+div{
+padding: 10px;
+}
+button{
+border: 0;
+padding: 5px 20px;
+font-size: 14px;
+font-weight: bold;
+background-color: #2196F3;
+color: #FFF;
+border-radius: 3px;
+}
+div.tableContainer{}
+div.tableContainer > table{
+border: 1px solid #c1c9e0;
+width: 600px;
+}
+div.tableContainer > table thead tr{
+background-color:#c1c9e0;
+}
+div.tableContainer > table th{
+font-weight: bold;
+text-align: left;
+padding: 5px 10px;
+font-size: 16px;
+}
+div.tableContainer > table td{
+text-align: left;
+padding: 5px 10px;
+}
+div.tableContainer > table tbody tr td:first-child{
+text-transform: capitalize;
+}
+div.tableContainer > table > tbody tr:nth-child(2n){
+background-color: #e3e6ef;
+}
+#myList{
+list-style: square;
+}
+#myList{
+text-transform: capitalize;
+}
+#myList >li {
+margin: 5px 0;
+}
+#myList >li > a {
+text-decoration: none;
+color: #000;
+}
